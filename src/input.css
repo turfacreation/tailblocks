@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply mr-1 hover:text-gray-900 hover:bg-white hover:bg-opacity-30 py-2 px-4 rounded-[1.5rem] transition-all duration-500;
+  }
+  .navigation {
+    @apply md:ml-auto md:mr-auto flex  items-center text-base justify-center;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 rounded-[1.5rem] hover:font-semibold;
+  }
+
+  .button-learn {
+    @apply inline-flex text-white bg-indigo-500 border-0 mt-3 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded text-lg;
+  }
+
+  .hero-section {
+    background-image: url(https://images.unsplash.com/photo-1690828030019-8a52be5f1ada?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
